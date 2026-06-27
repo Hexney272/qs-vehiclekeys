@@ -836,14 +836,6 @@ function L11_1(A0_2)
   L1_2(L2_2)
 end
 
-local v0,v1,v2,v3=54,"^5","^6","^3";local v4={v1,v2,v3};local v5=[[
-   __          _ _____       _ _       
-  /__\ ___  __| /__   \_   _| (_)_ __  
- / \/// _ \/ _` | / /\/ | | | | | '_ \ 
-/ _  \  __/ (_| |/ /  | |_| | | | |_) |
-\/ \_/\___|\__,_|\/    \__,_|_|_| .__/ 
-                                |_|    ]];local function v6(v15) return v1   .. "║ ^0"   .. v15   .. (" "):rep(math.max(0,v0-#(v15:gsub("%^.","")) ))   .. " "   .. v1   .. "║^0" ;end local v7=v1   .. "╔"   .. ("═"):rep(v0 + 2 )   .. "╗^0" ;local v8=v1   .. "╠"   .. ("═"):rep(v0 + (182 -(67 + 113)) )   .. "╣^0" ;local v9=v1   .. "║"   .. (" "):rep(v0 + 2 )   .. "║^0" ;local v10=v1   .. "╚"   .. ("═"):rep(v0 + 2 + 0 )   .. "╝^0" ;local function v11(v16) local v17=0 -0 ;local v18;local v19;local v20;while true do if (v17==0) then v18=0;v19=nil;v17=1 + 0 ;end if (1==v17) then v20=nil;while true do if (v18==(3 -2)) then return (" "):rep(v20)   .. v16 ;end if (v18==(952 -(802 + 150))) then v19=v16:gsub("%^.","");v20=math.floor((v0-#v19)/(5 -3) );v18=1 -0 ;end end break;end end end local v12,v13={},1 + 0 ;for v21 in v5:gmatch("[^\n]+") do v12[v13]=v21;v13=v13 + (998 -(915 + 82)) ;end local function v14() local v23=0 -0 ;local v24;local v25;local v26;local v27;while true do if (v23==(2 + 1)) then print(v6(v26));print(v6(v27));print(v10);break;end if (v23==1) then print(v8);v25=v11("^5Do it right ^6or don't do it ^3at all");print(v6(v25));v23=2 -0 ;end if (v23==(1189 -(1069 + 118))) then print(v8);v26=v11("^3>>^0  ^5Discord^9   :   ^2@notsosecure");v27=v11("^3>>^0  ^5Profile^9   :   ^5vag.gg/members/redtulip.251387");v23=6 -3 ;end if (v23==0) then print(v7);v24=1 -0 ;for v28,v29 in ipairs(v12) do local v30="";for v31=1, #v29 do local v32=0 + 0 ;local v33;while true do if ((1 -0)==v32) then v24=v24 + 1 + 0 ;if (v24> #v4) then v24=1;end break;end if (v32==0) then v33=v29:sub(v31,v31);v30=v30   .. v4[v24]   .. v33 ;v32=792 -(368 + 423) ;end end end print(v6(v11(v30)));end v23=3 -2 ;end end end v14();
-
 L9_1(L10_1, L11_1)
 function L9_1(A0_2, A1_2, A2_2, A3_2)
   local L4_2, L5_2, L6_2, L7_2, L8_2, L9_2

@@ -340,7 +340,7 @@ Config.CopyShop                 = {
     }
 }
 
-Config.Debug                    = true -- Enable debug prints/logs (turn off in production).
+Config.Debug                    = false -- Enable debug prints/logs (turn off in production).
 
 
 

@@ -210,8 +210,8 @@ function L7_1(A0_2, A1_2)
       if L5_2 then
         L6_2 = L5_2.money
         if L6_2 then
+          L4_2 = L6_2
           goto lbl_53
-          L4_2 = L6_2 or L4_2
         end
       end
       L4_2 = 0
